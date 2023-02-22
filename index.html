@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230222175222">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230222183005">
 	<link rel="shortcut icon" href="img/favicon.svg">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,16 +33,17 @@
 
 
 				<section class="fbcomments">
+					<h2 class="fbcomments__title">Facebook Comments Plugin</h2>
 					<form class="fbcomments__form">
 						<header class="fbcomments__header">
-							<h2 class="fbcomments__counter">21 Comments</h2>
+							<p class="fbcomments__counter">21 Comments</p>
 							<label for="fbcomments-sorting" class="fbcomments__sorting-label">Sort by</label>
-							<select id="fbcomments-sorting" name="fbcomments-select" class="fbcomments__select">
-								<option value="1" selected>Oldest</option>
-								<option value="2">Newest</option>
-								<option value="3">Пункт №3</option>
-								<option value="4">Пункт №4</option>
-							</select>
+							<div class="fbcomments__select">
+								Newest
+								<svg viewBox="0 0 24 24" fill="#fbfbfb" xmlns="http://www.w3.org/2000/svg">
+									<path d="M12.29 20.69a.78.78 0 0 0 .24-.16l4-4a.75.75 0 0 0-1.06-1.06l-2.72 2.72V5.81l2.72 2.72a.75.75 0 0 0 1.06-1.06l-4-4a.781.781 0 0 0-.53-.22.78.78 0 0 0-.53.22l-4 4a.75.75 0 0 0 1.06 1.06l2.72-2.72v12.38l-2.72-2.72a.75.75 0 0 0-1.06 1.06l4 4a.779.779 0 0 0 .53.22c.1 0 .198-.02.29-.06z" fill="#000" />
+								</svg>
+							</div>
 						</header>
 
 						<textarea placeholder="Add a comment..." class="fbcomments__textarea" name="fbcomments-textarea" cols="30" rows="1"></textarea>
@@ -313,7 +314,7 @@
 
 		</main>
 	</div>
-	<script src="js/app.min.js?_v=20230222175222"></script>
+	<script src="js/app.min.js?_v=20230222183005"></script>
 </body>
 
 </html>
